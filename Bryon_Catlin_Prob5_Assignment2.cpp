@@ -7,8 +7,8 @@ std::string my_join(std::vector<std::string> words, std::string separ);
 
 int main(void) {
     //intialize vectors and strings
-    std::vector<std::string>v1 = {"abc", "def", "ghi", "jkl"};
-    std::string separ = "--";
+    std::vector<std::string>v1 = {"abc", "def", "gh", "!"};
+    std::string separ = "";
     
     //print final
     std::cout << my_join(v1, separ) << std::endl;
@@ -32,6 +32,6 @@ std::string my_join(std::vector<std::string> words, std::string separ) {
             }
         }
     }
-    //retur final join string
+    //return final join string
     return join;
 }

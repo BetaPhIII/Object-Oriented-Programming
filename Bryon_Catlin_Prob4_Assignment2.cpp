@@ -33,9 +33,11 @@ int main(void) {
             std::cout << "You rolled " << die1 << " + " << die2 << " = " << sum << std::endl;
             std::cout<< "Point is " << sum <<std::endl;
             while(1) {
+                //Generate random numbers for diePoint
                 int die1P = rand()%6+1;
                 int die2P = rand()%6+1;
                 int sum2 = die1P+die2P;
+                //check if die sum == lose or win condition
                 if(sum2 == 7) {
                     std::cout << "You rolled " << die1P << " + " << die2P << " = " << sum2<< std::endl;
                     std::cout << "You lose!" <<std::endl;
