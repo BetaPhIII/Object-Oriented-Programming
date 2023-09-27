@@ -62,6 +62,6 @@ int main(void) {
     acc.deposit(3000);
     std::cout<<"Balance is: $" << acc.getBalance() <<std::endl;
     std::cout << "Monthly interest is " << acc.getMonthlyInterest();
-
+    
     return 0;
 }
